@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FetchApiSandbox</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <button id="getText" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Get Text
+    </button>
+    <button id="getUsers" class="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Get JSON
+    </button>
+    <button id="getPosts" class="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Get API DATA
+    </button>
+    <hr class="my-4">
+    <div id="output"></div>
+    <form id="addPost" class="mt-4">
+        <div class="mb-4">
+            <input type="text" id="title" placeholder="Title" class="shadow appearance-none border rounded w-50 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-6">
+            <textarea id="body" placeholder="Body" class="shadow appearance-none border rounded w-3/6 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    </form>
+    
+    
+
+
+
+    <script src="./fetch.js"></script>
+</body>
+</html>
